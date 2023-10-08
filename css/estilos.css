@@ -1,0 +1,229 @@
+/* General */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* Encabezado */
+header {
+  height: 30.3em;
+  width: 100%;
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  background-color: #dadbf1;
+}
+nav {
+  width: 100%;
+  height: 6em;
+  display: flex;
+  padding-left: 5.5em;
+  padding-right: 6em;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+.izquierda ul {
+  display: flex;
+  color: white;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+.izquierda ul li {
+  font-size: 1.55em;
+  padding-top: 0.5em;
+}
+.izquierda ul li strong {
+  margin: 0 0.3em;
+}
+
+.izquierda a:hover {
+  text-decoration: underline;
+}
+div.derecha {
+  display: flex;
+  justify-content: right;
+}
+
+.abstract-logo-header {
+  width: 5em;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+.boton {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.tipo_1 a {
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.tipo_1 {
+  width: 15em;
+  height: 3em;
+}
+.tipo_2 a {
+  color: white;
+  background-color: #4c5fd5;
+  transition: color, background-color 0.3s;
+  margin-left: 0.75em;
+}
+.tipo_2 {
+  width: 10em;
+  height: 3em;
+}
+.boton a {
+  font-size: 1.45em;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.tipo_2:hover a {
+  transition-duration: 300ms;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+}
+.busqueda {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+}
+
+h1 {
+  font-size: 4.5em;
+  font-weight: normal;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 0.4em;
+}
+.busqueda input {
+  width: 100%;
+  height: 3.05em;
+  border-radius: 4px;
+  border: 1px solid black;
+  transition: border 0.3s;
+  font-size: 1.25em;
+  padding-left: 1em;
+}
+input:hover {
+  border: 1px solid blue;
+  transition: border 0.3s;
+}
+input:hover ~ .bi.bi-arrow-right-short {
+  color: blue;
+  transition: color 0.3s;
+}
+.bi.bi-arrow-right-short {
+  font-size: 2.5em;
+  position: absolute;
+  right: 21.5%;
+  transform: translatey(12.5%);
+  color: black;
+  transition: color 0.1s;
+}
+
+/* Fin del Encabezado */
+
+/* Elementos */
+.principal {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5em 8em 4em 8em;
+}
+.principal .contenedor {
+  display: flex;
+  width: 50%;
+  height: 20.1em;
+}
+
+h2 {
+  width: 100%;
+  margin-top: 4em;
+}
+section.contenedor img {
+  width: 5em;
+  height: 5em;
+  margin-right: 1em;
+  margin-top: 6em;
+}
+
+section p {
+  width: 14em;
+  font-size: 1.5em;
+}
+section {
+  display: flex;
+  padding-right: 4em;
+  box-sizing: border-box;
+}
+section a {
+  text-decoration: none;
+  font-size: 1.25em;
+}
+section a:hover {
+  text-decoration: underline;
+}
+section a:visited {
+  color: rgb(69, 69, 240);
+}
+
+/* Footer */
+.pie {
+  background-color: black;
+  height: 20em;
+  display: flex;
+  color: white;
+  padding: 2em 5em;
+  justify-content: space-between;
+}
+.pie .izquierda {
+  display: flex;
+  width: 70%;
+  align-items: start;
+  font-size: 0.65em;
+  padding-bottom: 10em;
+}
+h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.pie .izquierda .lista {
+  display: flex;
+  margin-right: 5em;
+}
+.pie .izquierda ul a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+.pie ul li a:hover {
+  text-decoration: underline;
+}
+h4{
+  margin-bottom: 0.4em;
+  font-weight: bold;
+}
+.pie .derecha{
+  display: flex;
+  align-items: end;
+  margin-right: 1em;
+  font-size: 1em;
+}
+.abstract-logo-footer{
+  width: 2em;
+  height: 2em;
+}
